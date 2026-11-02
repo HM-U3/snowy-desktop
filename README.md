@@ -12,6 +12,19 @@
 
 ---
 
+## 下载
+
+到 [Releases](https://github.com/HM-U3/snowy-desktop/releases/latest) 下载 `SnowyDesktop-v1.0.0-win-x64.exe`，双击就能跑：
+
+- 是单文件程序，不需要安装、不写注册表；托盘图标右键退出即结束
+- 首次运行会在 `%APPDATA%\DesktopRain\` 建配置和日志，删掉这个目录就恢复默认
+- 开机自启默认关闭，需要在设置窗口里自己勾
+
+需要 **.NET 8 Desktop Runtime**（不是 ASP.NET Runtime，也不是 .NET Runtime）。没装的话双击会提示缺少框架，
+到 <https://dotnet.microsoft.com/download/dotnet/8.0> 选 “.NET Desktop Runtime 8.x” x64 安装即可。
+
+---
+
 ## 怎么用
 
 双击 `桌面雨效.exe` 就开始了，程序本身没有主窗口。**设置是一个独立窗口**（`SettingsForm.cs`），三个入口都能打开它：
