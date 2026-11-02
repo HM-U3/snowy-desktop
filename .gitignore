@@ -1,0 +1,17 @@
+# 构建输出
+bin/
+obj/
+dist/
+*.user
+*.suo
+.vs/
+
+# 本地调试脚本与临时截图
+shot.py
+wintest.py
+settings-preview.png
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
